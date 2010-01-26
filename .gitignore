@@ -1,0 +1,16 @@
+/Makefile
+/blib
+/pm_to_blib
+/META.yml
+/MYMETA.yml
+/Makefile.PL
+/Build
+/_build
+/*.tar.gz
+/MANIFEST.bak
+/MANIFEST.SKIP.bak
+/cover_db
+/tmp/*
+/String-isUTF8-*
+/lib/String/isUTF8.c
+/lib/String/isUTF8.o

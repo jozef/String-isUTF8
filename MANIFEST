@@ -1,0 +1,15 @@
+Build.PL
+Changes
+lib/String/isUTF8.pm
+lib/String/isUTF8.xs
+lib/String/ppport.h
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+t/01_String-isUTF8.t
+t/distribution.t
+t/fixme.t
+t/pod-coverage.t
+t/pod-spell.t
+t/pod.t
+README

@@ -1,0 +1,30 @@
+NAME
+    String::isUTF8 - access to is_utf8_string() Perl API function
+
+SYNOPSIS
+        use utf8;
+        use String::isUTF8 qw(perlapi_is_utf8_string);
+        unless (perlapi_is_utf8_string("keď vychodí slniečko")) {
+            die 'panic not UTF-8';
+        }
+
+DESCRIPTION
+    This module offers just one function `perlapi_is_utf8_string()' that can
+    be used to check if a string contains valid UTF-8 characters.
+
+  EXPORTS
+    perlapi_is_utf8_string
+    See `is_utf8_string' in perlapi.
+
+SEE ALSO
+    perlapi, Search::Tools::UTF8
+
+AUTHOR
+    Jozef Kutej
+
+COPYRIGHT
+    Copyright 2009 Jozef Kutej, all rights reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
